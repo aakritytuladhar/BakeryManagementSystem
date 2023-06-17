@@ -1,0 +1,99 @@
+.container {
+  /* width:100%; */
+
+  margin: 0 auto;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ed5485;
+  color: white;
+  /* width:100%; */
+}
+
+.subnav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ed5485;
+  color: white;
+  /* width:50%; */
+}
+
+.subnav-links ul {
+  align-items: center;
+}
+.subnav .logo {
+  width: 200px;
+}
+.subnav .logo img {
+  width: 200px;
+  height: 120px;
+}
+
+.subnav-links li {
+  list-style: none;
+}
+.subnav-links li a {
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+  display: inline;
+}
+.subnav-links li a:hover {
+  color: #19015e;
+}
+.main-content {
+  padding: 30px;
+  margin: 30px;
+}
+.main-content .level {
+  width: 175px;
+}
+.main-content .admin .col-4 {
+  width: 20%;
+  background-color: #fffbcb;
+  margin: 1%;
+  padding: 2%;
+  float: left;
+}
+table tr th {
+  border-bottom: 1px solid black;
+  padding: 1%;
+  text-align: left;
+}
+table tr td {
+  padding: 1%;
+}
+.tbl-full {
+  width: 100%;
+}
+.main-content .admin .btn-danger {
+  background-color: #bc4749;
+  padding: 1%;
+  color: white;
+  text-decoration: none;
+  /* font-weight: bold; */
+  border-radius: 4px;
+}
+
+.regform {
+  background-color: #fffbac;
+  padding-top: 30px;
+  font-size: 14pt;
+  font-weight: bold;
+  margin: 10px;
+  width: 500px;
+}
+.regform-line {
+  padding: 11px 36px;
+  margin: 6px 0;
+}
+.regform-control {
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  text-align: center;
+}

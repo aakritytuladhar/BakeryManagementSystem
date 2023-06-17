@@ -1,0 +1,513 @@
+/*
+            theme: Client side
+*/
+/* css for all */
+* {
+  margin: 0 0;
+  padding: 0 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  color: #b53471;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+.container {
+  /* border:1px solid red; */
+  margin: 0 auto;
+  /* padding:5%; */
+}
+
+.img-responsive {
+  width: 100%;
+}
+.text-white {
+  color: white;
+  font-size: 1.5rem;
+}
+.text-black {
+  color: black;
+  font-size: 1.5rem;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+.clear-fix {
+  clear: both;
+  float: none;
+}
+a:link {
+  color: white;
+}
+a:hover {
+  color: blue;
+}
+h1 {
+  color: #b53471;
+}
+.float-container {
+  position: relative;
+}
+.float-text {
+  position: absolute;
+  top: 0.5px;
+  left: 10px;
+  color: white;
+}
+.float-button {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+.btn {
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #bc4749;
+  color: #fff;
+}
+
+/* css fo logo and nav bar */
+.logo {
+  width: 10%;
+  float: left;
+  box-sizing: border-box;
+  margin: 1rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ed5485;
+  color: white;
+  margin-bottom: 0px !important;
+  border-bottom: 1px solid black !important;
+}
+.navbar-links ul {
+  display: flex;
+  float: right;
+  text-align: center;
+  margin: 2rem;
+}
+.navbar-links li {
+  list-style: none;
+}
+.navbar-links li a {
+  text-decoration: none;
+  color: white;
+  padding-right: 10px;
+  display: inline;
+}
+.search-icon button {
+  color: white;
+}
+/* For sub nav */
+
+.subnav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ed5485;
+  color: white;
+}
+
+.subnav-links ul {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 1.5rem;
+}
+
+.subnav-links li {
+  list-style: none;
+}
+.subnav-links li a {
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+  display: inline;
+  font-size: 18px;
+}
+.subnav-links li a:hover {
+  color: #19015e;
+}
+
+#chk1 {
+  display: none;
+}
+/* .navbar.menu-icon{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    margin: .5rem;
+} */
+/* css for search-icon */
+.search-icon {
+  flex: 1;
+  position: relative;
+  /* border: 1px solid; */
+}
+.search-icon input {
+  width: 100%;
+  height: 30px;
+  outline: none;
+  border: none;
+  background: white;
+  border-radius: 30px;
+  font-size: 16px;
+  text-align: center;
+  color: black;
+}
+.search-icon button {
+  cursor: pointer;
+  width: 40px;
+  height: 30px;
+  border: none;
+  border-radius: 30px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: scale(0.9);
+  background: #ed5485;
+}
+.action_btn {
+  position: relative;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  cursor: pointer;
+  float: left;
+}
+/* CSS for banner */
+.carousel slide {
+  background-size: cover;
+  /* Calculate the total width on the
+    basis of number of slides */
+  width: calc(1500px * 4);
+
+  /* Specify the animation with the
+    duration and speed */
+  animation: slide 1s ease infinite;
+}
+.carousel -inner {
+  margin: 1px;
+}
+
+/* Css for explore */
+.explore {
+  padding: 4% 0;
+}
+.box-3 {
+  /* border:1px solid black; */
+  width: 29%;
+  float: left;
+  margin: 2%;
+}
+/* css for bakery menu */
+.bakery {
+  padding: 4% 0;
+  background-color: #a5b1c2;
+}
+
+.bakery .card {
+  /* border:1px solid black; */
+  width: 29%;
+  float: left;
+  margin: 2%;
+  background-image: 20px;
+  text-align: center;
+}
+.bakery .card h3 {
+  font-weight: bold;
+  font-size: 20px;
+}
+.bakery .card .price {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.card-body h4 {
+  font-weight: bold;
+}
+
+.payment {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.payment .card {
+  width: 100%;
+  padding: 50px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 1px 3px 0 rgba(0, 0, 0, 0.12) !important;
+  margin: auto;
+}
+.payment label {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.card {
+  /* border:1px solid black; */
+  width: 29%;
+  float: left;
+  margin: 2%;
+  background-image: 20px;
+}
+.payment {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.payment .card {
+  width: 100%;
+  padding: 50px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.16), 0 1px 3px 0 rgba(0, 0, 0, 0.12) !important;
+  margin: auto;
+}
+.payment label {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+/* .box{
+    border: 1px solid black;
+    width:43%;
+    margin:1%;
+    padding: 2%;
+    float: left;
+ } */
+
+.box-desc {
+  width: 70%;
+  float: left;
+  margin-left: 5%;
+}
+.box-price {
+  font-size: 1.2rem;
+}
+/* div{
+    white-space: normal;
+ } */
+
+/* css for footer */
+
+.text-black h6 {
+  color: #19015e;
+  font-weight: 1000;
+  text-transform: uppercase;
+}
+.text-black ul a {
+  color: #bc4749;
+}
+.text-black ul {
+  list-style: none;
+  padding-left: 0;
+}
+.text-black .btn-success {
+  background-color: #bc4749;
+  border-color: #bc4749;
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #bc4749;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #ff7979;
+}
+
+/* REGISTER PAGE */
+
+.btn-1 {
+  border: 1px solid #fff;
+
+  background-color: #bc4749;
+  color: #fff;
+
+  line-height: 36px;
+  display: inline-block;
+  padding: 0px 25px;
+
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 3px;
+}
+.btn-1:hover {
+  border: 1px solid #bc4749;
+
+  background-color: #fff;
+  color: #bc4749 !important;
+}
+
+.main-footer {
+  background: #303339;
+}
+.inner-footer {
+  padding: 80px 0px 50px 0px;
+}
+
+.inner-footer h6 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+}
+.inner-footer li {
+  margin-bottom: 10px;
+}
+.inner-footer li:hover a {
+  color: #b53471;
+  text-decoration: none;
+}
+
+.inner-footer li a {
+  font-size: 14px;
+  color: #a8a8a8;
+  letter-spacing: 0.28px;
+}
+/* .inner-footer .subscribe form input {
+  width: 65%;
+  margin-bottom: 10px;
+  border-radius: 0;
+} */
+.copyright {
+  background-color: #ed5485;
+}
+.copyright p {
+  margin-bottom: 0;
+  font-size: 18px;
+}
+
+.carousel .item {
+  height: 80vh;
+}
+/* about us */
+.aboutus {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.aboutus h6 {
+  color: #bc8157;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 1;
+  margin-bottom: 15px;
+}
+.aboutus .title {
+  font-family: "Montaga", serif;
+  font-size: 36px;
+  font-weight: 400;
+  text-transform: uppercase;
+  position: relative;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+.aboutus .subtitle {
+  color: #bc8157;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 1;
+  margin-bottom: 15px;
+}
+.aboutus .text {
+  font-size: 18px;
+  font-weight: 400;
+  max-width: 500px;
+  width: 100%;
+  color: #858585;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.aboutus-image img {
+  width: 100%;
+  height: 352px;
+  object-fit: cover;
+}
+/* contactus */
+.contact-us {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.contact-title {
+  font-family: "Montaga", serif;
+  font-size: 36px;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 1.3;
+  color: #212121;
+  margin-bottom: 20px;
+}
+.contact-title {
+  font-family: "Montaga", serif;
+  font-size: 36px;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 1.3;
+  color: #212121;
+  margin-bottom: 20px;
+}
+.contact-list li {
+  padding-bottom: 40px;
+  display: flex;
+  align-items: center;
+}
+.contact-list__text {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #858585;
+  display: block;
+}
+.contact-formbg {
+  padding: 60px 50px;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+}
+.contact-form__title {
+  font-family: "Montaga", serif;
+  font-size: 24px;
+  font-weight: 500;
+  color: #212121;
+  line-height: 1.3;
+  text-transform: capitalize;
+  text-align: center;
+  margin: 0px 0 10px;
+  display: inline-block;
+}
+.contact-formbg input {
+  font-size: 14px;
+  width: 100%;
+  height: 54px;
+  padding: 10px 15px;
+  border: 1px solid #e5e5e5;
+  background-color: #fff;
+}
+
+/* trail2 */
+.page-section .card {
+  width: 100%;
+}
